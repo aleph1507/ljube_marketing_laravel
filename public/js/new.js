@@ -536,6 +536,14 @@
         }
     }
 
+    jQuery("li.menu-item").on("click", function(event){
+      if(!jQuery(this).hasClass("menu-item-has-children")){
+        jQuery("#mobile-menu").removeClass('active');
+        jQuery("#toggle-nav").removeClass('active');
+        jQuery('.sub-menu').hide();
+      }
+    });
+
     jQuery(document).ready(function () {
         form.init();
         if (window.location.hash == "#popup")
