@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('index');
 });
+
+
+Route::get('/blog/create', function() {
+  return view('posts.create');
+});

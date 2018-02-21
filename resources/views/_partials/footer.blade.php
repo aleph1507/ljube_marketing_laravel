@@ -850,7 +850,6 @@
         </div>
     </div>
 </footer>
-<script type='text/javascript' src={{asset('js/jquery.js')}}></script>
 <script type='text/javascript' src={{asset('js/jquery-migrate.min.js')}}></script>
 <script type='text/javascript' src={{asset('js/isotope.min.js')}}></script>
 <script type='text/javascript' src={{asset('js/main.js')}}></script>

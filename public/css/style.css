@@ -1877,7 +1877,7 @@ body.page-template-404 #content {
 .footer {padding: 70px 0 30px;}
 #footer {
     position: relative;
-    top: 750px;
+    /* top: 750px; */
     z-index: 34;
     background: #fff;
 }
@@ -1893,8 +1893,8 @@ body.page-template-404 #content {
 body#page-seo #footer {background-color: #f3efef;}
 body:not(#page-home) #footer {
     background-color: #f3efef;
-    top: 650px;
-}
+    /* top: 650px; */
+}:
 body:not(#page-home).page-template-tips #footer, body:not(#page-home).page-template-education #footer {top: 550px;}
 body#page-blog #footer, body#page-category #footer, body#page-author #footer {background-color: #fff;}
 body#page-author #footer {top: 0;}
@@ -8340,7 +8340,7 @@ body#page-privacy-policy #footer {top: 0;}
     #header {height: 540px;}
     #video-container {height: 770px;}
     #content {top: 540px;}
-    #footer {top: 540px;}
+    #footer {top: 40px;}
     .clients-cases {top: 440px;}
     .clients-descr .about-client {width: 700px;}
     .bubble-total-info-list li {margin: 0 20px;}
@@ -10484,4 +10484,24 @@ body#page-privacy-policy #footer {top: 0;}
 
 .row li {
   display:inline;
+}
+
+div.red{
+  z-index: -1;
+}
+
+div.content {
+  margin-top:10%;
+}
+
+div.post {
+  margin-top:3em;
+  margin-bottom:5em;
+  padding-left:14%;
+}
+
+div.form-group {
+  /* display:block; */
+  margin-top:2em;
+  margin-bottom:2em;
 }
